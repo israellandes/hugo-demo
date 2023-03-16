@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on </title>
+    <link>http://192.168.0.208:1313/tags/css/</link>
+    <description>Recent content in css on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2023 21:38:24 +0000</lastBuildDate><atom:link href="http://192.168.0.208:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add Custom Fonts to Wordpress with CSS &amp; No Plugins</title>
+      <link>http://192.168.0.208:1313/blog/2023/01/how-to-add-custom-fonts-wordpress-with-css-no-plugin/</link>
+      <pubDate>Tue, 31 Jan 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/01/how-to-add-custom-fonts-wordpress-with-css-no-plugin/</guid>
+      <description>This article describes how to add custom fonts to your Wordpress website without the need of using a plugin, all through simple CSS. Don&amp;rsquo;t worry if this is your first time working with CSS styling language this is a great place to start.
+Requirements: Wordpress website Custom fonts Step 1: Upload Custom Fonts to a New &amp;ldquo;Fonts&amp;rdquo; Folder *It&amp;rsquo;s reccomended to use a Child Theme when adding font&amp;rsquo;s and editing the theme style.</description>
+    </item>
+    
+  </channel>
+</rss>

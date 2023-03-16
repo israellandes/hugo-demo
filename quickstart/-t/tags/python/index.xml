@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on </title>
+    <link>http://192.168.0.208:1313/tags/python/</link>
+    <description>Recent content in python on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2023 21:38:24 +0000</lastBuildDate><atom:link href="http://192.168.0.208:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert Python Code Into a Pip Package</title>
+      <link>http://192.168.0.208:1313/blog/2023/02/convert-python-code-into-a-pip-package/</link>
+      <pubDate>Tue, 28 Feb 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/02/convert-python-code-into-a-pip-package/</guid>
+      <description>This article describes how to convert your Python code into a Pip package.
+Initial Steps Arrange your code into the proper file hierarchy Add your init.py files Add a license and a README.md if not already done
+Note: At any time, you are welcome to refer to my example Github Repo to see the file structure File Hierarchy and init files /demopackage __init__.py demopackage.py /demosubpackage __init__.py demosubpackage.py /tests test_package.py LICENSE README.</description>
+    </item>
+    
+  </channel>
+</rss>

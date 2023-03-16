@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT on </title>
+    <link>https://israellandes.com/tags/it/</link>
+    <description>Recent content in IT on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Mar 2023 10:14:24 +0000</lastBuildDate><atom:link href="https://israellandes.com/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 3 - System Component Overview</title>
+      <link>https://israellandes.com/blog/2023/03/chapter-3-system-component-overview/</link>
+      <pubDate>Tue, 14 Mar 2023 10:14:24 +0000</pubDate>
+      
+      <guid>https://israellandes.com/blog/2023/03/chapter-3-system-component-overview/</guid>
+      <description>This article is Chapter 3 in the CompTIA A+ certification course on Alison.com that teaches a System Component Overview of computers.
+Processors and CPUs Processors and the Operating systems are the Work horse of the computer.
+• Processors and CPUs
+Brains in the computer Allow it to perform many tasks really fast Processor performs calculations based on request from Operating System, which controls acess to system memory • Processing speeds</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2 - Safety for You and Computer Components</title>
+      <link>https://israellandes.com/blog/2023/03/chapter-2-safety-for-you-and-computer-components/</link>
+      <pubDate>Fri, 10 Mar 2023 10:14:24 +0000</pubDate>
+      
+      <guid>https://israellandes.com/blog/2023/03/chapter-2-safety-for-you-and-computer-components/</guid>
+      <description>This article is Chapter 2 in the CompTIA A+ certification course on Alison.com that teaches Safety for You and Computer Components.
+Common IT Tools Working with hardware Screwd rivers Tweezers Multimeters - ability to measure voltage, current and resistance. Chip extractors - removing componets from motherboard Storage canisters Software tools Electrostatic Discharge The same static discharge you feel when you rub your feet on carpet and touch someone or something that releases the energry stored.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1 - IT Professional Soft Skills</title>
+      <link>https://israellandes.com/blog/2023/03/chapter-1-it-professional-soft-skills/</link>
+      <pubDate>Tue, 07 Mar 2023 10:13:24 +0000</pubDate>
+      
+      <guid>https://israellandes.com/blog/2023/03/chapter-1-it-professional-soft-skills/</guid>
+      <description>This article is Chapter 1 in the CompTIA A+ certification course on Alison.com that teaches IT Professional Soft Skills.
+Troubleshooting &amp;amp; Problem Identification Problem Solving - Create a hypothesis and evaluate the hypothesis You want to be able to complete the following as quickly and efficiently as possible in the IT field:
+Identification of the problem Google/AI searching hardware-related makes, models, and other keywords. Always use the BEST methods available What could possibly be wrong based on signs and problems Gather info from the user to get the scope of the problem Ask user open-ended questions to lead you down the correct path Any changes they noticed Establishing a probable cause Inspect all problems that could be related to the root issue Testing to determine the cause You may need to test multiple problems that could also be related to troubleshooting the main overall issue Establish a plan to resolve the problem Come up with steps from A - Z to resolve an issue Implement your solution Proceed to carry out your plan Verify functionality and implement preventive measures Make sure your overall problem is resolved and is working satisfactorily for the user.</description>
+    </item>
+    
+    <item>
+      <title>What is the CompTIA A&#43; Certification?</title>
+      <link>https://israellandes.com/blog/2023/03/what-is-the-comptia-a-certification/</link>
+      <pubDate>Tue, 07 Mar 2023 10:13:24 +0000</pubDate>
+      
+      <guid>https://israellandes.com/blog/2023/03/what-is-the-comptia-a-certification/</guid>
+      <description>This article describes the CompTIA A+ certification. What is the CompTIA A+ certification? According to https://www.comptia.org/, &amp;ldquo;CompTIA A+ is the industry standard for establishing a career in IT&amp;rdquo;.
+The whole point of the certification is to teach new IT trainees how to be problem solvers so they can tackle issues relating to core technologies from security to networking to virtualization and more.
+CompTIA A+ certification is considered the only IT industry-recognized credential with &amp;ldquo;performance testing&amp;rdquo; that proves the professionals can think on their feet when performing critical IT support tasks.</description>
+    </item>
+    
+  </channel>
+</rss>

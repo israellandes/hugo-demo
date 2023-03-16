@@ -1,0 +1,153 @@
+[
+
+{
+	"uri": "https://israellandes.com/blog/2023/01/types-of-auth-for-apps/",
+	"title": "Different Types of Security Login Standards for Applications",
+	"categories": ["Website Programming"],
+	"tags": ["security"],
+	"description": "",
+	"content": " This article is about the different types of security standards used for logging into applications\nSecurity Login Standards The three main standards I will focus this article on are:\nHTTP Basic Auth - Least secure OAuth - More secure SAML - Most secure Despite these security standards, a single method is 100% safe. All best practices must be followed to reduce your chances as much as possible in preventing any security breaches to your websites and applications\n1. HTTP Basic Authentication Pros HTTP Basic Auth is open-source and fairly easy to implement on web servers like Apache \u0026amp; Nginx that serve website content in a variety of different formats and languages, the main being HTML and PHP. I have set up applications in a private repository on Github that utilize this basic login method because of its easy integration.\nHTTP Basic Auth Walkthrough\nCons Known HTTP Authentication Explotations:\nxHydra Hydra Ncrack Medusa Metasploit Burp Suite Basic authentication has several other basic vulnerabilities such as;\nThe username and password are passed in every request. Which is 100% unsafe in HTTP, and a bit safer under HTTPS. Credentials submitted with every request open a risk for an attacker to retrieve a session or authentication token. With basic auth, any request is an opportunity to steal the user\u0026rsquo;s password. This is not the best practice by far.\nDigest Auth reduces many of these vulnerabilities in terms of offering a bit more security by only sending an MD5 digest and bits that include the username/password, meaning attackers cannot extract credentials from a captured digest. However, it seems to be more trouble to set up than it\u0026rsquo;s worth in terms of security, according to this article it is likely more secure and easier to choose the following methods.\n2. OAuth - SSO Single sign-on (SSO) is an authentication method that allows users to securely authenticate with many applications and websites by granting a single set of credentials.\nOAuth is a public standard way for access delegation, most commonly used as a means for internet users to allow websites or applications to access their information on other websites but without revealing their passwords.\nThis standard is a bit more effort to add to an application but offers a much higher security grade compared to HTTP Basic Auth.\nI plan on completing the below tutorial and adding it to workflows because of its higher layers of security. OAuth also has open-source solutions that should speed up such integrations through the project Vouch-Proxy.\nOAuth Vouch-Proxy Walkthrough\n3. SAML - Security Assertion Markup Language Security Assertion Markup Language (SAML) is an authentication method and similarly to OAuth, its main function in online security is that it grants a user access to multiple web applications using one set of login credentials.\nSAMLs main difference between itself and OAuth, is that SAML is designed for a specific user, while OAuth is designed for multiple applications.\nThis standard is a good amount of effort to add to an application based on some guides I found but offers the highest security grade compared to OAuth \u0026amp; HTTP Basic Auth.\nFrom the guides, I\u0026rsquo;ve researched the two main components of SAML involve Identity Providers ( the home application base that verifies users ), and Service Providers ( the various applications themselves that users access through IDP) to control the verification and granting of application permissions to a user. Typically, to set up SAML you would choose a 3rd-party IDP provider to host your main verification portal.\nHowever, I also found the below open-source projects PHP-SAML \u0026amp; Lightsail SAML that help you build your own private IDP server and will be adding it to my workflow because of its high layers of security.\nSAML Private IDP Walkthrough\nConclusion No matter what method you choose to implement your security measures for your users and applications make sure you ask yourself and research the following questions:\nWhat are the vulnerabilities of my security solution? What are the best practices for implementing my security measure? What are the known hacks? Or how do you hack my security measure? Awareness is a must when it comes to security.\n",
+	"image_url": ["<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/images/23/01/security/HTTP-Auth-example.png"
+  
+  alt="HTTP Auth Security login example.">","<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/images/23/01/security/HTTP-Auth-example.jpg"
+  
+  alt="HTTP Auth Security login example.">","<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+    /images/23/01/security/OAuth_hudf7ffa8ba90e564a6c1ce94dd235cf0c_50616_500x0_resize_box_3.png 500w
+  
+  
+  '
+  
+    src="/images/23/01/security/OAuth.png"
+  
+  alt="OAuth loginexplained.">","<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+    /images/23/01/security/SAML_hu541d11c8c0554324b51fec92e4d93401_27622_500x0_resize_box_3.png 500w
+  
+  
+    , /images/23/01/security/SAML_hu541d11c8c0554324b51fec92e4d93401_27622_800x0_resize_box_3.png 800w
+  
+  '
+  
+    src="/images/23/01/security/SAML.png"
+  
+  alt="SAML login example.">",]
+},
+{
+	"uri": "https://israellandes.com/posts/tenth/",
+	"title": "Tenth",
+	"categories": [],
+	"tags": [],
+	"description": "",
+	"content": "Our goal is to add Prism.js Code Block Examples into Hugo blog.\nThis is raw HTML, inside Markdown with shortcode. This is raw HTML, inside Markdown with no shortcode. This is an example of Prism.JS Code Blcok Examples in a Hugo website.\n::placeholder { color: var(--placeholder); opacity: 1; } ",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/portfolio/",
+	"title": "Portfolio",
+	"categories": [],
+	"tags": [],
+	"description": "",
+	"content": "yo yo yo\nSome caption\n",
+	"image_url": ["<img
+        srcset="
+          /portfolio/duck_hu99efd98e34c17dd60a546cac55d5d98a_299349_320x0_resize_box_3.png 320w,
+          /portfolio/duck_hu99efd98e34c17dd60a546cac55d5d98a_299349_600x0_resize_box_3.png 600w,
+          /portfolio/duck_hu99efd98e34c17dd60a546cac55d5d98a_299349_1200x0_resize_box_3.png 2x"
+        src="/portfolio/duck_hu99efd98e34c17dd60a546cac55d5d98a_299349_600x0_resize_box_3.png" alt="Description for screen readers."/>",]
+},
+{
+	"uri": "https://israellandes.com/about/",
+	"title": "About W3 Simple",
+	"categories": [],
+	"tags": [],
+	"description": "",
+	"content": "W3 Simple is a Hugo theme written by Jesse Lau . The main motivation for writing this theme was to provide a really minimal theme with W3 CSS included.\n",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/posts/ninth/",
+	"title": "Ninth",
+	"categories": [],
+	"tags": ["interesting", "drink"],
+	"description": "",
+	"content": "This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.\n",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/posts/seventh/",
+	"title": "Seventh",
+	"categories": [],
+	"tags": ["interesting"],
+	"description": "",
+	"content": "This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.\n",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/posts/sixth/",
+	"title": "Sixth",
+	"categories": [],
+	"tags": ["interesting", "drink"],
+	"description": "",
+	"content": "This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.\n",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/posts/fourth/",
+	"title": "Fourth",
+	"categories": [],
+	"tags": ["interesting"],
+	"description": "",
+	"content": "This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.\n",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/posts/third/",
+	"title": "Third",
+	"categories": [],
+	"tags": ["interesting"],
+	"description": "",
+	"content": "This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.\n",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/posts/second/",
+	"title": "Second",
+	"categories": [],
+	"tags": ["interesting"],
+	"description": "",
+	"content": "This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.\n",
+	"image_url": []
+},
+{
+	"uri": "https://israellandes.com/posts/my-first-post/",
+	"title": "My First Post",
+	"categories": [],
+	"tags": ["interesting"],
+	"description": "",
+	"content": "This is my first post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.\n",
+	"image_url": []
+}]
+

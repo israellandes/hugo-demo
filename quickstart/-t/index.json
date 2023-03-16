@@ -1,0 +1,47 @@
+{
+  "version": "v1",
+  "pages": [
+    
+      {
+        "title": "Blogs",
+        "description": "",
+        "url": "http://192.168.0.208:1313/blog/",
+        "date": "2023-03-14 10:14:24 +0000 UTC",
+        "lastmod": "2023-03-14 10:14:24 +0000 UTC",
+      },
+    
+      {
+        "title": "Posts",
+        "description": "",
+        "url": "http://192.168.0.208:1313/posts/",
+        "date": "2023-01-22 16:54:55 +0000 UTC",
+        "lastmod": "2023-01-22 16:54:55 +0000 UTC",
+      },
+    
+      {
+        "title": "Portfolio",
+        "description": "",
+        "url": "http://192.168.0.208:1313/portfolio/",
+        "date": "2023-01-11 04:13:21 +0000 UTC",
+        "lastmod": "2023-01-11 04:13:21 +0000 UTC",
+      },
+    
+      {
+        "title": "About W3 Simple",
+        "description": "",
+        "url": "http://192.168.0.208:1313/about/",
+        "date": "2018-11-10 00:28:38 +0000 UTC",
+        "lastmod": "2018-11-10 00:28:38 +0000 UTC",
+      },
+    
+      {
+        "title": "All posts",
+        "description": "",
+        "url": "http://192.168.0.208:1313/allposts/",
+        "date": "0001-01-01 00:00:00 +0000 UTC",
+        "lastmod": "0001-01-01 00:00:00 +0000 UTC",
+      }
+    
+  ]
+}
+

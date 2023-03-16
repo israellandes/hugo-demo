@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023s on </title>
+    <link>http://54.219.145.38:1313/2023/</link>
+    <description>Recent content in 2023s on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2023 21:38:24 +0000</lastBuildDate><atom:link href="http://54.219.145.38:1313/2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Different Types of Security Login Standards for Applications</title>
+      <link>http://54.219.145.38:1313/2023/01/types-of-auth-for-apps/</link>
+      <pubDate>Sun, 22 Jan 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://54.219.145.38:1313/2023/01/types-of-auth-for-apps/</guid>
+      <description>This article is about the diffrent types of security standards used for logging into applications
+ Security Login Standards The three main standards I will focus this article on are:
+ HTTP Basic Auth - Least secure OAuth - More secure SAML - Most secure  HTTP Bassic Authentication This method is fairly easy to implement on web servers like Apache &amp;amp; Nginx that serve webite content in a variety of diffrent formats and languages, the main being HTML and PHP.</description>
+    </item>
+    
+  </channel>
+</rss>

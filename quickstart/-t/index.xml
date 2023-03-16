@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://192.168.0.208:1313/index.json</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Mar 2023 10:14:24 +0000</lastBuildDate><atom:link href="http://192.168.0.208:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 3 - System Component Overview</title>
+      <link>http://192.168.0.208:1313/blog/2023/03/chapter-3-system-component-overview/</link>
+      <pubDate>Tue, 14 Mar 2023 10:14:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/03/chapter-3-system-component-overview/</guid>
+      <description>This article is Chapter 3 in the CompTIA A+ certification course on Alison.com that teaches a System Component Overview of computers.
+Processors and CPUs Processors and the Operating systems are the Work horse of the computer.
+• Processors and CPUs
+Brains in the computer Allow it to perform many tasks really fast Processor performs calculations based on request from Operating System, which controls acess to system memory • Processing speeds</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2 - Safety for You and Computer Components</title>
+      <link>http://192.168.0.208:1313/blog/2023/03/chapter-2-safety-for-you-and-computer-components/</link>
+      <pubDate>Fri, 10 Mar 2023 10:14:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/03/chapter-2-safety-for-you-and-computer-components/</guid>
+      <description>This article is Chapter 2 in the CompTIA A+ certification course on Alison.com that teaches Safety for You and Computer Components.
+Common IT Tools Working with hardware Screwd rivers Tweezers Multimeters - ability to measure voltage, current and resistance. Chip extractors - removing componets from motherboard Storage canisters Software tools Electrostatic Discharge The same static discharge you feel when you rub your feet on carpet and touch someone or something that releases the energry stored.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1 - IT Professional Soft Skills</title>
+      <link>http://192.168.0.208:1313/blog/2023/03/chapter-1-it-professional-soft-skills/</link>
+      <pubDate>Tue, 07 Mar 2023 10:13:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/03/chapter-1-it-professional-soft-skills/</guid>
+      <description>This article is Chapter 1 in the CompTIA A+ certification course on Alison.com that teaches IT Professional Soft Skills.
+Troubleshooting &amp;amp; Problem Identification Problem Solving - Create a hypothesis and evaluate the hypothesis You want to be able to complete the following as quickly and efficiently as possible in the IT field:
+Identification of the problem Google/AI searching hardware-related makes, models, and other keywords. Always use the BEST methods available What could possibly be wrong based on signs and problems Gather info from the user to get the scope of the problem Ask user open-ended questions to lead you down the correct path Any changes they noticed Establishing a probable cause Inspect all problems that could be related to the root issue Testing to determine the cause You may need to test multiple problems that could also be related to troubleshooting the main overall issue Establish a plan to resolve the problem Come up with steps from A - Z to resolve an issue Implement your solution Proceed to carry out your plan Verify functionality and implement preventive measures Make sure your overall problem is resolved and is working satisfactorily for the user.</description>
+    </item>
+    
+    <item>
+      <title>What is the CompTIA A&#43; Certification?</title>
+      <link>http://192.168.0.208:1313/blog/2023/03/what-is-the-comptia-a-certification/</link>
+      <pubDate>Tue, 07 Mar 2023 10:13:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/03/what-is-the-comptia-a-certification/</guid>
+      <description>This article describes the CompTIA A+ certification. What is the CompTIA A+ certification? According to https://www.comptia.org/, &amp;ldquo;CompTIA A+ is the industry standard for establishing a career in IT&amp;rdquo;.
+The whole point of the certification is to teach new IT trainees how to be problem solvers so they can tackle issues relating to core technologies from security to networking to virtualization and more.
+CompTIA A+ certification is considered the only IT industry-recognized credential with &amp;ldquo;performance testing&amp;rdquo; that proves the professionals can think on their feet when performing critical IT support tasks.</description>
+    </item>
+    
+    <item>
+      <title>Convert Python Code Into a Pip Package</title>
+      <link>http://192.168.0.208:1313/blog/2023/02/convert-python-code-into-a-pip-package/</link>
+      <pubDate>Tue, 28 Feb 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/02/convert-python-code-into-a-pip-package/</guid>
+      <description>This article describes how to convert your Python code into a Pip package.
+Initial Steps Arrange your code into the proper file hierarchy Add your init.py files Add a license and a README.md if not already done
+Note: At any time, you are welcome to refer to my example Github Repo to see the file structure File Hierarchy and init files /demopackage __init__.py demopackage.py /demosubpackage __init__.py demosubpackage.py /tests test_package.py LICENSE README.</description>
+    </item>
+    
+    <item>
+      <title>Connect to Wi-Fi From Terminal on Ubuntu 22.04/20.04 with WPA Supplicant</title>
+      <link>http://192.168.0.208:1313/blog/2023/01/connect-to-wi-fi-from-terminal-on-ubuntu-22-04-or-20.04-with-wpa-supplicant/</link>
+      <pubDate>Sun, 22 Jan 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/01/connect-to-wi-fi-from-terminal-on-ubuntu-22-04-or-20.04-with-wpa-supplicant/</guid>
+      <description>This article describes how to connect your Linux Ubuntu server to wifi, primarily if you are using a wifi adaptor card. In my example I will be connecting my W-iFi card from Gen Basic to my Lebre “Le Potato” s905x-cc single board computer server.
+Le Potato &amp;ldquo;s905x-cc&amp;rdquo; GenBasic Wi-Fi Card We will be storing our Wi-Fi network and password in a wpa_supplicant configuration file. Please note that you will need an existing internet connection to install the wpa_supplicant software before connecting to Wi-Fi.</description>
+    </item>
+    
+    <item>
+      <title>Different Types of Security Login Standards for Applications</title>
+      <link>http://192.168.0.208:1313/blog/2023/01/types-of-auth-for-apps/</link>
+      <pubDate>Sun, 22 Jan 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/01/types-of-auth-for-apps/</guid>
+      <description>This article is about the different types of security standards used for logging into applications
+Security Login Standards The three main standards I will focus this article on are:
+HTTP Basic Auth - Least secure OAuth - More secure SAML - Most secure Despite these security standards, a single method is 100% safe. All best practices must be followed to reduce your chances as much as possible in preventing any security breaches to your websites and applications</description>
+    </item>
+    
+    <item>
+      <title>Tenth</title>
+      <link>http://192.168.0.208:1313/posts/tenth/</link>
+      <pubDate>Sun, 22 Jan 2023 16:54:55 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/tenth/</guid>
+      <description>Our goal is to add Prism.js Code Block Examples into Hugo blog.
+This is raw HTML, inside Markdown with shortcode. This is raw HTML, inside Markdown with no shortcode. This is an example of Prism.JS Code Blcok Examples in a Hugo website.
+::placeholder { color: var(--placeholder); opacity: 1; } </description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>http://192.168.0.208:1313/portfolio/</link>
+      <pubDate>Wed, 11 Jan 2023 04:13:21 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/portfolio/</guid>
+      <description>yo yo yo
+Some caption</description>
+    </item>
+    
+    <item>
+      <title>About W3 Simple</title>
+      <link>http://192.168.0.208:1313/about/</link>
+      <pubDate>Sat, 10 Nov 2018 00:28:38 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/about/</guid>
+      <description>W3 Simple is a Hugo theme written by Jesse Lau . The main motivation for writing this theme was to provide a really minimal theme with W3 CSS included.</description>
+    </item>
+    
+    <item>
+      <title>Ninth</title>
+      <link>http://192.168.0.208:1313/posts/ninth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/ninth/</guid>
+      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+    <item>
+      <title>Seventh</title>
+      <link>http://192.168.0.208:1313/posts/seventh/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:29 +0200</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/seventh/</guid>
+      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+    <item>
+      <title>Sixth</title>
+      <link>http://192.168.0.208:1313/posts/sixth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:25 +0200</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/sixth/</guid>
+      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+    <item>
+      <title>Fourth</title>
+      <link>http://192.168.0.208:1313/posts/fourth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:16 +0200</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/fourth/</guid>
+      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+    <item>
+      <title>Third</title>
+      <link>http://192.168.0.208:1313/posts/third/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:13 +0200</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/third/</guid>
+      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>http://192.168.0.208:1313/posts/second/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:10 +0200</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/second/</guid>
+      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://192.168.0.208:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>http://192.168.0.208:1313/posts/my-first-post/</guid>
+      <description>This is my first post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+  </channel>
+</rss>

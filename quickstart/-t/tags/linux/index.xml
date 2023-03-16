@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on </title>
+    <link>http://192.168.0.208:1313/tags/linux/</link>
+    <description>Recent content in linux on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2023 21:38:24 +0000</lastBuildDate><atom:link href="http://192.168.0.208:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect to Wi-Fi From Terminal on Ubuntu 22.04/20.04 with WPA Supplicant</title>
+      <link>http://192.168.0.208:1313/blog/2023/01/connect-to-wi-fi-from-terminal-on-ubuntu-22-04-or-20.04-with-wpa-supplicant/</link>
+      <pubDate>Sun, 22 Jan 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/01/connect-to-wi-fi-from-terminal-on-ubuntu-22-04-or-20.04-with-wpa-supplicant/</guid>
+      <description>This article describes how to connect your Linux Ubuntu server to wifi, primarily if you are using a wifi adaptor card. In my example I will be connecting my W-iFi card from Gen Basic to my Lebre “Le Potato” s905x-cc single board computer server.
+Le Potato &amp;ldquo;s905x-cc&amp;rdquo; GenBasic Wi-Fi Card We will be storing our Wi-Fi network and password in a wpa_supplicant configuration file. Please note that you will need an existing internet connection to install the wpa_supplicant software before connecting to Wi-Fi.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta http-equiv="Cache-Control" content="public" />
+ 
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.102.3" />
+
+    
+    
+    
+
+<title>Chapter 3 - System Component Overview • israellandes.com</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Chapter 3 - System Component Overview"/>
+<meta name="twitter:description" content="This article is Chapter 3 in the CompTIA A&#43; certification course on Alison.com that teaches a System Component Overview of computers.
+Processors and CPUs Processors and the Operating systems are the Work horse of the computer.
+• Processors and CPUs
+Brains in the computer Allow it to perform many tasks really fast Processor performs calculations based on request from Operating System, which controls acess to system memory • Processing speeds"/>
+
+<meta property="og:title" content="Chapter 3 - System Component Overview" />
+<meta property="og:description" content="This article is Chapter 3 in the CompTIA A&#43; certification course on Alison.com that teaches a System Component Overview of computers.
+Processors and CPUs Processors and the Operating systems are the Work horse of the computer.
+• Processors and CPUs
+Brains in the computer Allow it to perform many tasks really fast Processor performs calculations based on request from Operating System, which controls acess to system memory • Processing speeds" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://192.168.0.208:1313/blog/2023/03/chapter-3-system-component-overview/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-03-14T10:14:24+00:00" />
+<meta property="article:modified_time" content="2023-03-14T10:14:24+00:00" /><meta property="og:site_name" content="israellandes.com" />
+
+
+
+
+<link rel="canonical" href="http://192.168.0.208:1313/blog/2023/03/chapter-3-system-component-overview/" />
+
+
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+
+<link rel="stylesheet" href="/css/w3.css?id=1234" />
+
+
+<link rel="stylesheet" href="/css/style.css?id=1234" />
+
+
+
+
+
+
+
+<script src="/js/prism.min.js"></script>
+
+
+<link rel="stylesheet" href="/css/prism.min.css">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQWVR4D683"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZQWVR4D683');
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3776745402621792"
+     crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+  
+  
+</head>
+<body class="w3-light-grey">
+
+
+    
+    <header id="header">
+         
+        <div class="w3-right ">
+<div class="w3-bar w3-light-grey  ">
+  
+  <span class="w3-bar-item w3-left " id="google_translate_element"></span>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+          pageLanguage: 'en'
+        , layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT
+        , multilanguagePage: true
+      }
+      , 'google_translate_element'
+    );
+  }
+</script>
+<script async src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+  
+       <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-green" title="Search" onclick="displaysearch()"><i class="fa fa-search"></i></a>
+  
+      <span class="w3-hide-small">
+        
+        <a href="mailto:israel.landes9@gmail.com" class="w3-bar-item w3-button w3-hover-green"><i class="fa fa-envelope"></i></a>
+        
+        <a href="https://www.linkedin.com/in/is-rael-landes-86666b17b/" class="w3-bar-item w3-button w3-hover-green"><i class="fa fa-linkedin"></i></a>
+        
+        <a href="https://github.com/israellandes" class="w3-bar-item w3-button w3-hover-green"><i class="fa fa-github"></i></a>
+
+      </span>
+  
+</div>
+</div>
+<br>
+  <div class="w3-content">
+  
+  <div class="w3-container w3-center w3-padding-32 w3-hide-small"> 
+      <h1 class="w3-xxxlarge w3-text-blue w3-wide w3-allerta  " style="text-shadow:1px 1px 0 #444" ><u>
+      
+         IS-RAEL&#39;S SIMPLE BLOG
+      
+</u></h1>
+      
+    </div>
+    <div class="w3-content w3-center">
+    <div class="w3-bar w3-light-grey w3-border">
+    <a href="/" class="w3-bar-item w3-button w3-large w3-green"><i class="fa fa-home"></i></a>
+    
+      <a href="/about/" class="w3-bar-item w3-button w3-hide-small">About</a>
+    
+      <a href="/categories/" class="w3-bar-item w3-button w3-hide-small">Categories</a>
+    
+      <a href="/tags/" class="w3-bar-item w3-button w3-hide-small">Tags</a>
+    
+      <a href="/allposts/" class="w3-bar-item w3-button w3-hide-small">All Posts</a>
+    
+      <a href="/zh-cn/" class="w3-bar-item w3-button w3-hide-small">Chinese</a>
+    
+   
+    
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="displaymenu()">&#9776;</a>
+  </div>
+
+<div id="mobilemenu" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium">
+  
+      <a href="/about/" class="w3-bar-item w3-button">About</a>
+      
+      <a href="/categories/" class="w3-bar-item w3-button">Categories</a>
+      
+      <a href="/tags/" class="w3-bar-item w3-button">Tags</a>
+      
+      <a href="/allposts/" class="w3-bar-item w3-button">All Posts</a>
+      
+      <a href="/zh-cn/" class="w3-bar-item w3-button">Chinese</a>
+      
+  
+</div>
+</div>
+</div>
+<script>
+function displaymenu() {
+    var x = document.getElementById("mobilemenu");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+
+  <div id="searchOverlay" class="overlay w3-hide">
+    <span class="closebtn" onclick="displaysearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+        <form action="/search/">
+          <input type="text" placeholder="Search.." name="q">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+  </div>
+
+  <script>
+  function displaysearch() {
+    var x = document.getElementById("searchOverlay");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+      
+  }
+
+ 
+  </script>
+
+  
+
+
+    
+    <hr class="headfoot">
+   
+      
+    </header>
+    
+<div class="w3-content">
+    
+      <div>
+        
+        <div id="content" >
+          
+    
+
+ 
+     
+
+
+  <div class="w3-content w3-card-4" >
+    
+    <header class="w3-container w3-center w3-padding-32">
+      <h1>Chapter 3 - System Component Overview</h1>
+
+      <div >
+        <p> 2023-03-14 
+          
+             <code> 723 words  </code>
+             <code> 4 mins read </code>
+          
+        </p>
+        <div >
+            
+              <a class="w3-btn w3-small w3-round w3-green" href="/categories/comptia-a&#43;/"> CompTIA A&#43; </a>
+            
+          </div>
+       
+        
+      </div>
+    </header>
+
+   
+    
+    <div class="w3-container">
+      
+        
+
+        
+        
+
+        
+          
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+    /images/23/03/comptia/computer-components_hu21aa5b687a018b2d8e25af103314f23c_229479_500x0_resize_q75_box.jpg 500w
+  
+  
+    , /images/23/03/comptia/computer-components_hu21aa5b687a018b2d8e25af103314f23c_229479_800x0_resize_q75_box.jpg 800w
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/computer-components.jpg"
+  
+  alt="Chapter 3 - System Component Overview.">
+
+
+
+<p>This article is <a href="https://alison.com/topic/learn/84173/topic-a">Chapter 3 in the CompTIA A+ certification course on Alison.com</a> that teaches a System Component Overview of computers.</p>
+<h1 id="processors-and-cpus">Processors and CPUs</h1>
+<p>Processors and the Operating systems are the Work horse of the computer.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/processor-cpu.png"
+  
+  alt="Processor &amp; CPU.">
+
+
+
+<p>• Processors and CPUs</p>
+<ul>
+<li>Brains in the computer</li>
+<li>Allow it to perform many tasks really fast</li>
+<li>Processor performs calculations based on request from Operating System, which controls acess to system memory</li>
+</ul>
+<p>• Processing speeds</p>
+<ul>
+<li>Speed or power of a processor</li>
+<li>Calculated in Megahertz, Gigahertz or Millions of instructions per second</li>
+</ul>
+<p>• Operating systems and controls</p>
+<ul>
+<li>Control the tasks that a computer carries out.</li>
+<li>Manages software and hardware resources of computer</li>
+</ul>
+<p>This diagram shows how data input flows from a  processor to produce an output that is then stored in memory.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+    /images/23/03/comptia/input-output-storage_hueeb24b54ded50cc66699b3fa2ca94ad0_33690_500x0_resize_box_3.png 500w
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/input-output-storage.png"
+  
+  alt="Input to Output to Storage.">
+
+
+
+<p>Many ancillary or supportive devices that help make these process happen such as:</p>
+<p>• Input Devices</p>
+<ul>
+<li>Card readers</li>
+<li>Keyboard</li>
+<li>Mouse</li>
+</ul>
+<p>• Output Devices</p>
+<ul>
+<li>Monitor</li>
+<li>Printer</li>
+</ul>
+<p>• Storage Devices</p>
+<ul>
+<li>Hard Drives</li>
+<li>RAM</li>
+<li>Tapes</li>
+</ul>
+<h1 id="power-supplies">Power Supplies</h1>
+<p>• Power supply voltage requirments</p>
+<ul>
+<li>Convert 120V of alternating current from electrical outlet and convert to nessisary voltage for computer.</li>
+</ul>
+<p>Each device requires diffrent type of voltage requirment.</p>
+<p>• 3.3V</p>
+<ul>
+<li>Less common, found internally in computer</li>
+</ul>
+<p>• 5V</p>
+<ul>
+<li>Less common, found internally in computer</li>
+</ul>
+<p>• 12V</p>
+<ul>
+<li>Most common</li>
+</ul>
+<h1 id="storage-devices">Storage Devices</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Storage Devices 1.</th>
+<th style="text-align:center"></th>
+<th style="text-align:right">Storgae Devices 2.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/storage-devices-1.png"
+  
+  alt="Storage Devices 1.">
+
+
+</td>
+<td style="text-align:center"></td>
+<td style="text-align:right">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/storage-devices-2.png"
+  
+  alt="Storage Devices 2.">
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>• Hard drives</p>
+<ul>
+<li>Most common</li>
+</ul>
+<p>• Magnetic tapes</p>
+<ul>
+<li>Used for archiving data</li>
+</ul>
+<p>• Flash drives</p>
+<ul>
+<li>Thumbdrives, zip-drives for quick memory transfor data</li>
+</ul>
+<p>• Solid-state drives</p>
+<ul>
+<li>Use a flash type memory to store data.</li>
+<li>Computers memory is solid state storage medium, like random acess memory.</li>
+<li>Beneficial because there no moving parts, less worn out.</li>
+</ul>
+<p>Connecting hard dives to the motherboard can be done using one of these technologies.</p>
+<ul>
+<li>IDE - Integrated Drive Electronics</li>
+<li>SATA - Serial ATA</li>
+<li>SCSI - Small Computer System Interface</li>
+</ul>
+<p>Hard drives are usually manufactured with one of these technologies which are then connected through bus mechenisms called a Periferial Component Interconnect.</p>
+<h1 id="adapter-cards">Adapter Cards</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/adapter-cards.png"
+  
+  alt="Adapter Cards.">
+
+
+
+<p>Allow you to adapt computer to perform functions such as display a picture, or connect to a network. They are integrated into motherboard of computer.</p>
+<p>• Adapter cards</p>
+<ul>
+<li>Mouse controllers</li>
+<li>Serial &amp; Paralel Ports</li>
+<li>USB Ports</li>
+<li>Displays</li>
+</ul>
+<p>• ISA, AGP, PCI, PCI Express and others</p>
+<ul>
+<li>Termonoligy used to describe adaptor slots</li>
+</ul>
+<p>• Video Cards</p>
+<ul>
+<li>Used to produce pictures</li>
+<li>Measured using bits and colors ex: 16Bit or 65K Color</li>
+<li>Resolution measured by Pixles ex: 1280 x 1024</li>
+</ul>
+<h1 id="bioscmos">BIOS/CMOS</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/bios-cmos.png"
+  
+  alt="BIOS/CMOS.">
+
+
+
+<p>BIOS is responsible for controling and managing system processes such as system boot and interaction with other components on motherboard.</p>
+<p>• BIOS</p>
+<ul>
+<li>Basic Input Output System</li>
+<li>Software stored on read only memory chip on motherboard</li>
+</ul>
+<p>• CMOS</p>
+<ul>
+<li>Complementary Metal Oxcide Semiconductor</li>
+<li>Stores hardware configuration settings between reboots</li>
+<li>Supplied with a batteryon motherboard</li>
+<li>Stores settings related to BIOS</li>
+</ul>
+<p>• UEFI</p>
+<ul>
+<li>Unified Extensible Firmware Interface</li>
+<li>Low level code to control motherboard procesess</li>
+<li>Also includes diognostic tools that support network booting and commands.</li>
+</ul>
+<p>• Storage Settings</p>
+<ul>
+<li>Stored in RAM memory and require power to maintain information</li>
+<li>Some settings include:
+<ul>
+<li>Which drives are present?</li>
+<li>How much memory is installed?</li>
+<li>What type ofmouse is installed?</li>
+<li>Any required resources.</li>
+<li>Date &amp; time.</li>
+<li>Power on password.</li>
+</ul>
+</li>
+</ul>
+<h1 id="chips">Chips</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/computer-chips.png"
+  
+  alt="Computer Chips.">
+
+
+
+<p>Computer Chips are integrated circuts that contain transistors that perform a function. They make a decision or actually create a function.</p>
+<p>• Chipsets</p>
+<ul>
+<li>Used to manage data flow between processor and memory,as well as devices.</li>
+</ul>
+<p>• Firmware</p>
+<ul>
+<li>Fills in between software and hardware</li>
+<li>A program in code, stored on chip that provides low level controls for hardware that help you communicate.</li>
+<li>Faccilitates functioning of the integrated chip circuits which add card functionality.</li>
+</ul>
+<h1 id="input-and-output-devices">Input and Output Devices</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Printer</th>
+<th style="text-align:center"></th>
+<th style="text-align:right">Monitor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/printer.png"
+  
+  alt="Printer">
+
+
+</td>
+<td style="text-align:center"></td>
+<td style="text-align:right">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/monitor.png"
+  
+  alt="Monitor">
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>Most common Input and Output devices.</p>
+<p>• Printers</p>
+<ul>
+<li>Allow users to produce paper output from computers</li>
+</ul>
+<p>• Monitors</p>
+<ul>
+<li>Allow users to produce images and video displayes.</li>
+</ul>
+<p>Others include scanners, faxes or cameras.</p>
+<h1 id="ports">Ports</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+  
+  '
+  
+    src="/placeholder.svg" data-src="/images/23/03/comptia/ports.png"
+  
+  alt="Ports">
+
+
+
+<p>• Ports</p>
+<ul>
+<li>Serve as connection points for cables which allow data between a computer and device.</li>
+</ul>
+<p>• Serial</p>
+<ul>
+<li>Used to connect devices like modems</li>
+</ul>
+<p>• Parallel</p>
+<ul>
+<li>Connections for printers</li>
+</ul>
+<p>• Keyboard and mouse</p>
+<ul>
+<li>specific port connectiosn which enable Keyboard and mouse.</li>
+</ul>
+<p>• USB</p>
+<ul>
+<li>Universal Serial Bus</li>
+<li>Can connect a number of diffrent devices such as mouses, keyboards, printers, scanners, modems, flashdrives, and so on.</li>
+</ul>
+<p>• Video</p>
+<ul>
+<li>Used for plug and play devices to produce picture outputs.</li>
+</ul>
+<h1 id="conclusion">Conclusion</h1>
+<p>You can find a free course materials preparing you for the CompTIA A+ exam here: <a href="https://alison.com/courses/comptia-a-1000-part-1/content">https://alison.com/courses/comptia-a-1000-part-1/</a></p>
+
+                 
+                
+         
+      
+    </div>
+
+    
+   
+
+    <div class="w3-container">
+    	
+      <div class="w3-container">
+        	<hr class = "tag">
+        Tags: 
+          
+          <a class="w3-btn w3-small w3-round w3-green" href="/tags/it/">IT</a>
+          
+          <a class="w3-btn w3-small w3-round w3-green" href="/tags/hardware/">Hardware</a>
+          
+          <a class="w3-btn w3-small w3-round w3-green" href="/tags/coding/">Coding</a>
+          
+          <hr class = "tag">
+       
+        </div>
+     
+	</div>
+
+
+
+  
+
+
+    
+    
+    
+    <div class="w3-container">
+        
+        <h2>Related Articles:</h2>
+        <ul class="w3-ul w3-hoverable">
+            
+            
+
+              <li class="w3-padding-large"><span class="date">2023/03/07</span> &nbsp; <a href="/blog/2023/03/what-is-the-comptia-a-certification/">What is the CompTIA A+ Certification?</a></li>
+            
+
+              <li class="w3-padding-large"><span class="date">2023/03/10</span> &nbsp; <a href="/blog/2023/03/chapter-2-safety-for-you-and-computer-components/">Chapter 2 - Safety for You and Computer Components</a></li>
+            
+
+              <li class="w3-padding-large"><span class="date">2023/03/07</span> &nbsp; <a href="/blog/2023/03/chapter-1-it-professional-soft-skills/">Chapter 1 - IT Professional Soft Skills</a></li>
+            
+        </ul>
+    </div>
+    
+    
+    <br>  
+</div>
+
+
+
+<div class="w3-container w3-card-2 w3-black">
+<div class="w3-row">
+  <div class="w3-col l2 m2 s12 w3-center">
+  
+    <img src="https://raw.githubusercontent.com/jesselau76/hugo-w3-simple/master/exampleSite/images/johndoe.jpg" width ="100px" class="w3-circle w3-center w3-margin-top w3-margin-bottom" alt="author" >
+   
+  </div>
+  <div class="w3-col l10 m10 s12 ">
+  <div class = "w3-container w3-margin-top">
+    <h4>Authored By Is-Rael Landes</h4>
+    <p class="w3-small">Is-Rael Landes, a good man living on the earth, loving making website, teaching others and coding.</p>
+  </div>
+  </div>
+  </div>
+</div>
+
+      
+    <div class="w3-content" > 
+      <div class="w3-bar w3-section">
+	     
+	    
+	      <a class="w3-btn w3-right w3-text-indigo w3-hover-green" href="http://192.168.0.208:1313/blog/2023/03/chapter-2-safety-for-you-and-computer-components/">
+	       Chapter 2 - Safety for You and Computer Components &#10095;
+	      </a>
+  	  </div>
+    </div>
+	
+ 
+
+  
+  
+      
+      <script src="/js/w3codecolor-min.js"></script>
+
+      <script>
+      w3CodeColor();
+      </script>
+  
+
+      <div id="wrapads">
+        <div class="adBanner">
+         
+        </div>
+       </div>
+      
+      <div id="allowads" class="allowads-overlay">
+  
+        <div class="allowads-overlay-content">
+        <div class="w3-panel w3-pink w3-large">
+        
+
+         <p> We notice you're using an adblocker.  If you like our webite please keep us running by whitelisting this site in your ad blocker. We’re serving quality, related ads only. Thank you!</p>
+         
+          <div class="w3-btn w3-green"  onclick="closeOverlay()">I've whitelisted your website.</div><br>
+          <div class="w3-button w3-small"  onclick="closeOverlay()">Not now</div>
+        </div>
+        </div>
+      </div>
+
+      <script>
+      function closeOverlay() {
+        document.getElementById("allowads").style.width = "0%";
+        document.getElementById("wrapads").style.height="1px";
+      }
+
+      function detectads() {
+      var h = document.getElementById("wrapads").clientHeight;
+
+      if (h==0){ document.getElementById("allowads").style.width = "100%";
+      }
+      }
+      
+
+     
+      
+      </script>
+        </div>
+        
+          <script>
+  shareurl=encodeURIComponent(location.protocol + '//' + location.host + location.pathname);
+  sharetitle=encodeURIComponent(document.title);
+    
+  </script>
+<div class="icon-bar">
+<script>
+document.write( '<a href="javascript:bookmark();" class="bookmark w3-tooltip"><i class="fa fa-bookmark"></i><span style="position:absolute;left:40px;bottom:18px" class="w3-text w3-small w3-tag w3-round w3-green ">Bookmark this page</span></a> ');
+
+document.write( '<a href="http://www.facebook.com/sharer.php?u='+shareurl+'" onclick="window.open(this.href, \'mywin\',\'left=20,top=20,width=500,height=500,toolbar=1,resizable=0\'); return false;" class="facebook w3-tooltip"><i class="fa fa-facebook "></i><span style="position:absolute;left:40px;bottom:18px" class="w3-text w3-small w3-tag w3-round w3-green">Share to Facebook</span></a> ');
+
+document.write( '<a href="https://twitter.com/share?url='+shareurl+'&amp;text='+sharetitle+'" onclick="window.open(this.href, \'mywin\',\'left=20,top=20,width=500,height=500,toolbar=1,resizable=0\'); return false;" class="twitter w3-tooltip"><i class="fa fa-twitter"></i><span style="position:absolute;left:40px;bottom:18px" class="w3-text w3-small w3-tag w3-round w3-green">Share to Twitter</span></a> ');
+document.write( '<a href="https://plus.google.com/share?url='+shareurl+'" onclick="window.open(this.href, \'mywin\',\'left=20,top=20,width=500,height=500,toolbar=1,resizable=0\'); return false;" class="google w3-tooltip"><i class="fa fa-google"></i><span style="position:absolute;left:40px;bottom:18px" class="w3-text w3-small w3-tag w3-round w3-green">Share to Google Plus</span></a>');
+
+document.write( '<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url='+shareurl+'" onclick="window.open(this.href, \'mywin\',\'left=20,top=20,width=500,height=500,toolbar=1,resizable=0\'); return false;" class="linkedin w3-tooltip"><i class="fa fa-linkedin"></i><span style="position:absolute;left:40px;bottom:18px" class="w3-text w3-small w3-tag w3-round w3-green">Share to Linkedin</span></a>');
+
+</script>
+
+<script>
+function bookmark(){
+
+if ('sidebar' in window && 'addPanel' in window.sidebar) { 
+                window.sidebar.addPanel(location.href,document.title,"");
+            } else if(  false) { 
+                window.external.AddFavorite(location.href,document.title); 
+            } else { 
+                alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != - 1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
+            }
+        }
+
+</script>
+</div>
+        
+           
+          
+  
+
+        
+        
+      </div>
+    
+
+   
+    <footer id="footer" >
+      <div class="w3-container w3-center w3-padding-32">
+  
+  <hr class="headfoot">
+  <p>Powered by <a href="https://gohugo.io">Hugo</a>
+  </p>
+  © <a href="https://israellandes.com">Is-Rael Landes</a> 2023 | <a href="https://github.com/israellandes">Github</a> | <a href="/index.xml">RSS</a>
+  
+</div>
+    </footer>
+    
+
+    
+  </div>
+
+   
+  <div id="cookiebar" class="w3-bar w3-top w3-black w3-border   " >
+  
+  <span class="w3-bar-item w3-small">This website uses cookies to ensure you get the best experience on our website. <a href="/privacy-policy/">Learn more</a></span>
+  <span onclick="gotitcookiebar()"
+  class="w3-button w3-small w3-green w3-right">Got it</span>
+   </div>
+
+    
+<script>
+function gotitcookiebar() {
+    var x =document.getElementById("cookiebar");
+    x.style.display = "none";
+var x = document.getElementsByTagName("BODY")[0];
+    x.style.paddingTop = "0px";
+    
+
+}
+
+
+    
+function checkCookie() {
+    var user=getCookie("cookiebardisplayed");
+    if (user == "") {
+      setCookie("cookiebardisplayed","0",365);}
+
+    user=getCookie("cookiebardisplayed");
+    if (user =="0")
+    {
+
+        var x =document.getElementById("cookiebar");
+    x.style.display = "block";
+    var h = document.getElementById('cookiebar').clientHeight;
+    
+    var x = document.getElementsByTagName("BODY")[0];
+    x.style.paddingTop = h+"px";
+    setCookie("cookiebardisplayed","1",365);
+    } 
+    
+}
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+document.addEventListener('DOMContentLoaded', function() {
+    checkCookie();
+}, false);
+
+</script>   
+
+
+  
+    
+      <div id="backtotop" class="w3-hide-small w3-hide-medium">
+  
+        <button onclick="topFunction()" class="w3-btn w3-red w3-large" style="width:160px">Back To Top
+        &rarr;</button>
+        
+      </div>
+
+      <script>
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+
+    
+ 
+    
+    <script>
+    
+    function isVisible(elem) {
+
+      let coords = elem.getBoundingClientRect();
+
+      let windowHeight = document.documentElement.clientHeight;
+
+      
+      let topVisible = coords.top > 0 && coords.top < windowHeight;
+      let bottomVisible = coords.bottom < windowHeight && coords.bottom > 0;
+
+      return topVisible || bottomVisible;
+    }
+
+    
+
+    function showVisible() {
+      for (let img of document.querySelectorAll('img')) {
+        let realSrc = img.dataset.src;
+        if (!realSrc) continue;
+
+        if (isVisible(img)) {
+          
+
+          img.src = realSrc;
+
+          img.dataset.src = '';
+        }
+      }
+      if ( Array.from(document.querySelectorAll('[data-src]')).every(
+        img => img.getAttribute('data-src') === '') ) {
+        window.removeEventListener('scroll', showVisible)
+      }
+
+    }
+
+    window.addEventListener('scroll', showVisible);
+    showVisible();
+  </script>
+
+
+    
+    
+      <div class="progress-container" id="scrollbar">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>  
+
+
+    
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  <!-- TOC -->
+    
+    
+    
+    <!-- cookie bar -->
+    
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        var x =document.getElementById("cookiebar");
+        x.style.display = "none";
+        var x = document.getElementsByTagName("BODY")[0];
+        x.style.paddingTop = "0px";
+
+    } 
+    
+<!-- Back to top -->
+    
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("backtotop").style.display = "block";
+    } else {
+        document.getElementById("backtotop").style.display = "none";
+    }
+    
+    <!-- scroll indicator -->
+    
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("progress-bar").style.width = scrolled + "%";
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scrollbar").style.display = "block";
+        } else {
+            document.getElementById("scrollbar").style.display = "none";
+        }
+    
+
+    
+
+    <!-- allowads -->
+    
+       if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+          detectads();
+       } 
+
+    
+}
+
+
+</script>
+
+
+
+  
+
+</body>
+</html>

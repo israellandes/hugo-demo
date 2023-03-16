@@ -1,0 +1,21 @@
+---
+title: "Different Types of Security Login Standards for Applications"
+date: 2023-01-22T21:38:24Z
+draft: false
+---
+
+This article is about the diffrent types of security standards used for logging into applications
+
+<hr>
+
+## Security Login Standards
+
+The three main standards I will focus this article on are:
+1. HTTP Basic Auth - **Least secure**
+2. OAuth - **More secure**
+3. SAML - **Most secure**
+
+## HTTP Bassic Authentication
+
+This method is fairly easy to implement on web servers like Apache & Nginx that serve webite content in a variety of diffrent formats and languages, the main being HTML and PHP.
+

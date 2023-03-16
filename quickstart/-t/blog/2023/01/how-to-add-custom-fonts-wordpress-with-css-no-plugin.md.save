@@ -1,0 +1,45 @@
+---
+author: admin
+title: "How to Add Custom Fonts to Wordpress with CSS & No Plugins"
+type: post
+date: 2023-01-31T21:38:24Z
+draft: false
+thumbnail: images/23/01/web-dev/wordpress-css-fonts.png
+url:
+w3codecolor: true
+categories:
+- Website Programming
+tags:
+- wordpress
+- css
+---
+{{< images/img src="images/23/01/web-dev/wordpress-css-fonts.png" alt="How to Add Custom Fonts to Wordpress with CSS & No Plugin." >}}
+
+<br>
+
+This article describes how to add custom fonts to your Wordpress website without the need of using a plugin, all through simple CSS. Don't worry if this is your first time working with CSS styling language this is a great place to start.
+
+# Requirements:
+
+1. Wordpress website
+2. Custom fonts
+
+## **Step 1: Upload Custom Fonts to a New "Fonts" Folder**
+
+Create a new folder inside your websites /wp-content/themes/your-theme/ folder and lable it "fonts". Then upload your fonts in any of the following extension formats:
+
+*Please note thta some browsers require certain file formats in order to render fonts.
+ 
+- .eot
+- .woff
+- .woff2
+- .ttf
+- .svg
+
+You can use an [online tool](https://cloudconvert.com/) to convert files to correct files.
+
+After uploading fonts you should have a font folder on your wordpress site with all your nessisary font file extensions in it under the directory:
+<pre><code>/wp-content/themes/your-theme/fonts/</code></pre>
+{{< images/img src="images/23/01/web-dev/fonts-folder-example.png" alt="Wordpress Fonts Folder Example." >}}
+
+

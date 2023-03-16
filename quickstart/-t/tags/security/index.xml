@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on </title>
+    <link>http://192.168.0.208:1313/tags/security/</link>
+    <description>Recent content in security on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2023 21:38:24 +0000</lastBuildDate><atom:link href="http://192.168.0.208:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Different Types of Security Login Standards for Applications</title>
+      <link>http://192.168.0.208:1313/blog/2023/01/types-of-auth-for-apps/</link>
+      <pubDate>Sun, 22 Jan 2023 21:38:24 +0000</pubDate>
+      
+      <guid>http://192.168.0.208:1313/blog/2023/01/types-of-auth-for-apps/</guid>
+      <description>This article is about the different types of security standards used for logging into applications
+Security Login Standards The three main standards I will focus this article on are:
+HTTP Basic Auth - Least secure OAuth - More secure SAML - Most secure Despite these security standards, a single method is 100% safe. All best practices must be followed to reduce your chances as much as possible in preventing any security breaches to your websites and applications</description>
+    </item>
+    
+  </channel>
+</rss>

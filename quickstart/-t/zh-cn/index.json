@@ -1,0 +1,39 @@
+{
+  "version": "v1",
+  "pages": [
+    
+      {
+        "title": "Posts",
+        "description": "",
+        "url": "http://192.168.0.208:1313/zh-cn/posts/",
+        "date": "2018-11-24 00:26:15 +1300 +1300",
+        "lastmod": "2018-11-24 00:26:15 +1300 +1300",
+      },
+    
+      {
+        "title": "About W3 Simple",
+        "description": "",
+        "url": "http://192.168.0.208:1313/zh-cn/about/",
+        "date": "2018-11-10 00:28:38 +0000 UTC",
+        "lastmod": "2018-11-10 00:28:38 +0000 UTC",
+      },
+    
+      {
+        "title": "All posts",
+        "description": "",
+        "url": "http://192.168.0.208:1313/zh-cn/allposts/",
+        "date": "0001-01-01 00:00:00 +0000 UTC",
+        "lastmod": "0001-01-01 00:00:00 +0000 UTC",
+      },
+    
+      {
+        "title": "Search",
+        "description": "",
+        "url": "http://192.168.0.208:1313/zh-cn/search/",
+        "date": "0001-01-01 00:00:00 +0000 UTC",
+        "lastmod": "0001-01-01 00:00:00 +0000 UTC",
+      }
+    
+  ]
+}
+

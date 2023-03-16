@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://israellandes.com/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2023 21:38:24 +0000</lastBuildDate><atom:link href="https://israellandes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>security</title>
+      <link>https://israellandes.com/tags/security/</link>
+      <pubDate>Sun, 22 Jan 2023 21:38:24 +0000</pubDate>
+      
+      <guid>https://israellandes.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drink</title>
+      <link>https://israellandes.com/tags/drink/</link>
+      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
+      
+      <guid>https://israellandes.com/tags/drink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interesting</title>
+      <link>https://israellandes.com/tags/interesting/</link>
+      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
+      
+      <guid>https://israellandes.com/tags/interesting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
